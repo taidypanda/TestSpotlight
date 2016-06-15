@@ -45,25 +45,6 @@
         
     });
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -79,9 +60,6 @@
     }else{
         NSLog(@"no have data");
     }
-}
-
-- (IBAction)go:(id)sender {
 }
 
 - (void)didReceiveMemoryWarning {

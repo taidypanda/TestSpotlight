@@ -29,13 +29,6 @@
     UINavigationController * nav = (UINavigationController *)self.window.rootViewController;
     [nav popToRootViewControllerAnimated:NO];
     ViewController * vc = [nav.viewControllers firstObject];
-//    unsigned int outCount = 0;
-//    objc_property_t * property = class_copyPropertyList(userActivity.class, &outCount);
-//    for (int i = 0; i < outCount; i ++) {
-//        objc_property_t p = property[i];
-//        NSLog(@"property name is %s", property_getName(p));
-//    }
-//    free(property);
     [vc pushToNextVCWithIdentifier:identifier];
     return YES;
 }
