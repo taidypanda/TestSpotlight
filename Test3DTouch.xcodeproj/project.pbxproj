@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21BD00E1D10F4960076F662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21BD00D1D10F4960076F662 /* main.m */; };
+		F21BD0111D10F4960076F662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21BD0101D10F4960076F662 /* AppDelegate.m */; };
+		F21BD0141D10F4960076F662 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21BD0131D10F4960076F662 /* ViewController.m */; };
+		F21BD0171D10F4960076F662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21BD0151D10F4960076F662 /* Main.storyboard */; };
+		F21BD0191D10F4960076F662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21BD0181D10F4960076F662 /* Assets.xcassets */; };
+		F21BD01C1D10F4960076F662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21BD01A1D10F4960076F662 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F21BD0091D10F4960076F662 /* Test3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21BD00D1D10F4960076F662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F21BD00F1D10F4960076F662 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F21BD0101D10F4960076F662 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F21BD0121D10F4960076F662 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F21BD0131D10F4960076F662 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F21BD0161D10F4960076F662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21BD0181D10F4960076F662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21BD01B1D10F4960076F662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21BD01D1D10F4960076F662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21BD0061D10F4960076F662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21BD0001D10F4960076F662 = {
+			isa = PBXGroup;
+			children = (
+				F21BD00B1D10F4960076F662 /* Test3DTouch */,
+				F21BD00A1D10F4960076F662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21BD00A1D10F4960076F662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21BD0091D10F4960076F662 /* Test3DTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21BD00B1D10F4960076F662 /* Test3DTouch */ = {
+			isa = PBXGroup;
+			children = (
+				F21BD00F1D10F4960076F662 /* AppDelegate.h */,
+				F21BD0101D10F4960076F662 /* AppDelegate.m */,
+				F21BD0121D10F4960076F662 /* ViewController.h */,
+				F21BD0131D10F4960076F662 /* ViewController.m */,
+				F21BD0151D10F4960076F662 /* Main.storyboard */,
+				F21BD0181D10F4960076F662 /* Assets.xcassets */,
+				F21BD01A1D10F4960076F662 /* LaunchScreen.storyboard */,
+				F21BD01D1D10F4960076F662 /* Info.plist */,
+				F21BD00C1D10F4960076F662 /* Supporting Files */,
+			);
+			path = Test3DTouch;
+			sourceTree = "<group>";
+		};
+		F21BD00C1D10F4960076F662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F21BD00D1D10F4960076F662 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21BD0081D10F4960076F662 /* Test3DTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21BD0201D10F4960076F662 /* Build configuration list for PBXNativeTarget "Test3DTouch" */;
+			buildPhases = (
+				F21BD0051D10F4960076F662 /* Sources */,
+				F21BD0061D10F4960076F662 /* Frameworks */,
+				F21BD0071D10F4960076F662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test3DTouch;
+			productName = Test3DTouch;
+			productReference = F21BD0091D10F4960076F662 /* Test3DTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21BD0011D10F4960076F662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "苹果";
+				TargetAttributes = {
+					F21BD0081D10F4960076F662 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F21BD0041D10F4960076F662 /* Build configuration list for PBXProject "Test3DTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21BD0001D10F4960076F662;
+			productRefGroup = F21BD00A1D10F4960076F662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21BD0081D10F4960076F662 /* Test3DTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21BD0071D10F4960076F662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21BD01C1D10F4960076F662 /* LaunchScreen.storyboard in Resources */,
+				F21BD0191D10F4960076F662 /* Assets.xcassets in Resources */,
+				F21BD0171D10F4960076F662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21BD0051D10F4960076F662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21BD0141D10F4960076F662 /* ViewController.m in Sources */,
+				F21BD0111D10F4960076F662 /* AppDelegate.m in Sources */,
+				F21BD00E1D10F4960076F662 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F21BD0151D10F4960076F662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21BD0161D10F4960076F662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21BD01A1D10F4960076F662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21BD01B1D10F4960076F662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21BD01E1D10F4960076F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F21BD01F1D10F4960076F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21BD0211D10F4960076F662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Test3DTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huiyang.Test3DTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F21BD0221D10F4960076F662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Test3DTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huiyang.Test3DTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21BD0041D10F4960076F662 /* Build configuration list for PBXProject "Test3DTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21BD01E1D10F4960076F662 /* Debug */,
+				F21BD01F1D10F4960076F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21BD0201D10F4960076F662 /* Build configuration list for PBXNativeTarget "Test3DTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21BD0211D10F4960076F662 /* Debug */,
+				F21BD0221D10F4960076F662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21BD0011D10F4960076F662 /* Project object */;
+}
