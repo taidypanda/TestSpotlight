@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import <objc/runtime.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +19,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler
+{
+    NSLog(@"user activity userinfo is %@", [userActivity userInfo]);
+    NSString * identifier = userActivity.userInfo[@"kCSSearchableItemActivityIdentifier"];
+    UINavigationController * nav = (UINavigationController *)self.window.rootViewController;
+    [nav popToRootViewControllerAnimated:NO];
+    ViewController * vc = [nav.viewControllers firstObject];
+//    unsigned int outCount = 0;
+//    objc_property_t * property = class_copyPropertyList(userActivity.class, &outCount);
+//    for (int i = 0; i < outCount; i ++) {
+//        objc_property_t p = property[i];
+//        NSLog(@"property name is %s", property_getName(p));
+//    }
+//    free(property);
+    [vc pushToNextVCWithIdentifier:identifier];
     return YES;
 }
 

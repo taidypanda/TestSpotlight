@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSArray * array;
+@property (nonatomic, strong) NSArray * images;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+- (void)pushToNextVCWithIdentifier:(NSString *)identifier;
 
 @end
 

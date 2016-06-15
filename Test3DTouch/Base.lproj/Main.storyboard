@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DeG-62-LR7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,146 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="回到搜索页面,搜索jd或者taobao或者tmall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKO-1T-JaF">
+                                <rect key="frame" x="143.5" y="289.5" width="313" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tKO-1T-JaF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3Ns-ef-LXf"/>
+                            <constraint firstItem="tKO-1T-JaF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FKc-OS-49m"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="w6C-oW-Zpg"/>
+                    <connections>
+                        <segue destination="kUZ-aV-cHf" kind="show" identifier="jd" id="CfW-rd-fIq"/>
+                        <segue destination="t9L-3o-IlQ" kind="show" identifier="tmall" id="34o-v7-3ae"/>
+                        <segue destination="GmR-fi-prd" kind="show" identifier="taobao" id="Pzu-PH-tbo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1143" y="240"/>
+        </scene>
+        <!--tmall-->
+        <scene sceneID="jlj-H5-roZ">
+            <objects>
+                <viewController title="tmall" id="t9L-3o-IlQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MLH-59-G9v"/>
+                        <viewControllerLayoutGuide type="bottom" id="XtW-Cj-BOg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8nY-k9-X60">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tmall" translatesAutoresizingMaskIntoConstraints="NO" id="WnA-ud-MTe">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Rpt-Wd-8qY"/>
+                                    <constraint firstAttribute="height" constant="20" id="Uzb-De-ZqM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WnA-ud-MTe" firstAttribute="centerX" secondItem="8nY-k9-X60" secondAttribute="centerX" id="NOp-z3-bdF"/>
+                            <constraint firstItem="WnA-ud-MTe" firstAttribute="centerY" secondItem="8nY-k9-X60" secondAttribute="centerY" id="oMB-Y8-1dB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L50-H6-B7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="974"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZHw-Dg-RZL">
+            <objects>
+                <viewController id="kUZ-aV-cHf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mey-PK-rnh"/>
+                        <viewControllerLayoutGuide type="bottom" id="fKt-vb-2FR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9oW-AQ-ytp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jd" translatesAutoresizingMaskIntoConstraints="NO" id="UdO-Qg-Zb7">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8U9-tr-1jh"/>
+                                    <constraint firstAttribute="width" constant="20" id="RGa-Qc-oR6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UdO-Qg-Zb7" firstAttribute="centerX" secondItem="9oW-AQ-ytp" secondAttribute="centerX" id="jiG-hy-CPS"/>
+                            <constraint firstItem="UdO-Qg-Zb7" firstAttribute="centerY" secondItem="9oW-AQ-ytp" secondAttribute="centerY" id="ls4-z5-6b0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10t-ak-YX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="-430"/>
+        </scene>
+        <!--taobao-->
+        <scene sceneID="U2p-bp-Gyz">
+            <objects>
+                <viewController title="taobao" id="GmR-fi-prd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="erM-sR-H1o"/>
+                        <viewControllerLayoutGuide type="bottom" id="MIU-d2-Wkv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Won-cG-njp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taobao" translatesAutoresizingMaskIntoConstraints="NO" id="iHK-Ee-mNp">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="I1x-1A-LnP"/>
+                                    <constraint firstAttribute="width" constant="20" id="X76-bV-BlI"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iHK-Ee-mNp" firstAttribute="centerY" secondItem="Won-cG-njp" secondAttribute="centerY" id="dNh-1d-1lo"/>
+                            <constraint firstItem="iHK-Ee-mNp" firstAttribute="centerX" secondItem="Won-cG-njp" secondAttribute="centerX" id="pFt-46-Wf9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tFa-QZ-4MI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="240"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cgt-kb-ZHS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DeG-62-LR7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="X2x-Nk-VAp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YjH-gr-kgt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0U-nk-9Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="423" y="240"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="jd" width="20" height="20"/>
+        <image name="taobao" width="20" height="20"/>
+        <image name="tmall" width="20" height="20"/>
+    </resources>
 </document>

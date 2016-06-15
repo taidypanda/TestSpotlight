@@ -13,6 +13,7 @@
 		F21BD0171D10F4960076F662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21BD0151D10F4960076F662 /* Main.storyboard */; };
 		F21BD0191D10F4960076F662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21BD0181D10F4960076F662 /* Assets.xcassets */; };
 		F21BD01C1D10F4960076F662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21BD01A1D10F4960076F662 /* LaunchScreen.storyboard */; };
+		F21BD0241D10FC280076F662 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21BD0231D10FC280076F662 /* CoreSpotlight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F21BD0181D10F4960076F662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F21BD01B1D10F4960076F662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F21BD01D1D10F4960076F662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21BD0231D10FC280076F662 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21BD0241D10FC280076F662 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		F21BD0001D10F4960076F662 = {
 			isa = PBXGroup;
 			children = (
+				F21BD0231D10FC280076F662 /* CoreSpotlight.framework */,
 				F21BD00B1D10F4960076F662 /* Test3DTouch */,
 				F21BD00A1D10F4960076F662 /* Products */,
 			);
